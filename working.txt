@@ -1,0 +1,14 @@
+making a castling 
+condition to castling:
++ Neither the king nor the rook has previously moved.
+make a moved list with boolean datatype. whenever there are any pieces are moved the value of it in the list will change to False
++ There are no pieces between the king and the rook.
+Make a marked list name empty_squares to save the empty squares between king and rooks which isn't moved
++ The king is not currently in check.
+have a flag name check to check if king is checked
+making promotion
++ init a promotion piece list
++ draw a promotion bar on the left
++ listen to the mouse and change the pawn as the mouse's chose
+Making en passant
++ whenever a pawn move 2 step and a pawn on the left of the destination of that pawn enemy's pawn can captured it
